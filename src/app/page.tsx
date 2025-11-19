@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -180,7 +180,6 @@ export default function LandingPage() {
             }
           ]}
           animationType="slide-up"
-          gridVariant="uniform-all-items-equal"
           carouselMode="buttons"
         />
       </div>
